@@ -6,12 +6,10 @@
 	"main": "stylelint-rtlcss-comments.js",
 	"author": "Anton Khlynovskiy <subzey@gmail.com>",
 	"license": "WTFPL",
-	"dependencies": {
-		"stylelint": ">= 9.10.1"
-	},
 	"devDependencies": {
 		"@types/stylelint": "^9.4.1",
 		"postcss": "^7.0.14",
+		"stylelint": ">= 9.10.1",
 		"ts-node": "^8.0.2",
 		"tslint": "^5.12.1",
 		"tslint-eslint-rules": "^5.4.0",
