@@ -10,6 +10,7 @@
 		"@types/stylelint": "^9.4.1",
 		"postcss": "^7.0.14",
 		"stylelint": ">= 9.10.1",
+		"stylelint-test-rule-tape": "^0.2.0",
 		"ts-node": "^8.0.2",
 		"tslint": "^5.12.1",
 		"tslint-eslint-rules": "^5.4.0",
@@ -24,6 +25,6 @@
 	],
 	"scripts": {
 		"build": "tslint --project . && tsc && ts-node build",
-		"test": "ts-node build/prod-ready"
+		"test": "node test && ts-node build/prod-ready"
 	}
 }
