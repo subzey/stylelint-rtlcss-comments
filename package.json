@@ -1,0 +1,31 @@
+{
+	"private": true,
+	"name": "stylelint-rtlcss-comments",
+	"version": "1.0.0-rc.1",
+	"description": "Lint rtlcss directive comments",
+	"main": "stylelint-rtlcss-comments.js",
+	"author": "Anton Khlynovskiy <subzey@gmail.com>",
+	"license": "WTFPL",
+	"dependencies": {
+		"stylelint": ">= 9.10.1"
+	},
+	"devDependencies": {
+		"@types/stylelint": "^9.4.1",
+		"postcss": "^7.0.14",
+		"ts-node": "^8.0.2",
+		"tslint": "^5.12.1",
+		"tslint-eslint-rules": "^5.4.0",
+		"tslint-microsoft-contrib": "^6.0.0",
+		"typescript": "^3.3.1",
+		"vrsource-tslint-rules": "^6.0.0"
+	},
+	"keywords": [
+		"rtl",
+		"rtlcss",
+		"stylelint"
+	],
+	"scripts": {
+		"build": "tslint --project . && tsc && ts-node build",
+		"test": "ts-node build/prod-ready"
+	}
+}

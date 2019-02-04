@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"importHelpers": true,
+		"lib": [
+			"es2015.collection",
+			"es2015.core",
+			"es2015.iterable",
+			"es2015.promise",
+			"es2015.symbol.wellknown",
+			"es2016.array.include",
+			"es2017.object",
+			"es5"
+		],
+		"noEmitOnError": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"sourceMap": false,
+		"strict": true,
+		"strictFunctionTypes": true,
+		"stripInternal": true,
+		"downlevelIteration": true,
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist"
+	},
+	"exclude": [
+		"**/node_modules/*"
+	],
+	"files": [
+		"source/stylelint-rtlcss-comments.ts",
+		"source/block-directives.ts"
+	]
+}
